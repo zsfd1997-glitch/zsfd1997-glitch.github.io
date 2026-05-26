@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zsfd1997-glitch.github.io/sitemap.xml

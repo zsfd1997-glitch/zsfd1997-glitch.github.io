@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="AI 搜索曝光体检">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="70" y="70" width="1060" height="490" rx="16" fill="#f5f7fa" stroke="#d9dee5"/>
+  <text x="110" y="175" fill="#101214" font-family="Arial, sans-serif" font-size="60" font-weight="700">AI 搜索曝光体检</text>
+  <text x="110" y="275" fill="#101214" font-family="Arial, sans-serif" font-size="48" font-weight="700">客户问 AI 推荐供应商时，有没有你？</text>
+  <text x="110" y="355" fill="#5f6670" font-family="Arial, sans-serif" font-size="28">查曝光、查竞品、给 30 天修复清单。</text>
+  <rect x="110" y="430" width="230" height="68" rx="8" fill="#0f6b4f"/>
+  <text x="155" y="474" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">免费体检</text>
+</svg>

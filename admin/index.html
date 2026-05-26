@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 搜索曝光体检后台</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/admin.css" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <section class="admin-top">
+        <div>
+          <p class="eyebrow">AI 搜索曝光体检</p>
+          <h1>线索后台</h1>
+        </div>
+        <a class="home-link" href="/">返回前台</a>
+      </section>
+
+      <form id="admin-form" class="admin-auth">
+        <label>
+          管理令牌
+          <input id="token" name="token" type="password" autocomplete="current-password" placeholder="输入管理令牌" required />
+        </label>
+        <button type="submit">查看线索</button>
+      </form>
+
+      <section class="admin-actions" aria-label="后台操作">
+        <p id="admin-status" role="status">输入令牌后读取最近 100 条线索。</p>
+        <a id="export-link" class="export-link" href="#" aria-disabled="true">导出 CSV</a>
+      </section>
+
+      <section id="lead-list" class="lead-list" aria-label="线索列表"></section>
+    </main>
+
+    <script src="/assets/admin.js" type="module"></script>
+  </body>
+</html>

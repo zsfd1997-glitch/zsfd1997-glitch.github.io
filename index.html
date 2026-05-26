@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 搜索曝光体检 | 免费查 AI 有没有推荐你</title>
+    <meta
+      name="description"
+      content="一个极简中文工具：输入官网、产品、竞品和邮箱，提交 AI 搜索曝光体检线索。"
+    />
+    <meta property="og:title" content="AI 搜索曝光体检" />
+    <meta property="og:description" content="客户问 AI 推荐供应商时，有没有你？" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zsfd1997-glitch.github.io/" />
+    <meta property="og:image" content="/assets/og.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://zsfd1997-glitch.github.io/" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="AI 搜索曝光体检首页">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span>AI 搜索曝光体检</span>
+      </a>
+      <span class="mail-link">提交后自动进后台</span>
+    </header>
+
+    <main class="screen">
+      <section class="copy" aria-labelledby="hero-title">
+        <h1 id="hero-title">客户问 AI 推荐供应商时，有没有你？</h1>
+        <p>专查出海 SaaS、AI 工具、软件服务官网在 ChatGPT、Perplexity、Gemini、Google AI 里的曝光情况。</p>
+
+        <div class="score-card" aria-label="体检报告示例">
+          <div>
+            <small>AI 曝光分示例</small>
+            <strong>38 / 100</strong>
+          </div>
+          <ul>
+            <li>你：多数问题下未被提到</li>
+            <li>竞品：20 个问题里出现 17 次</li>
+            <li>缺口：FAQ、对比页、案例页不足</li>
+          </ul>
+        </div>
+
+        <div class="pricing-row" aria-label="价格">
+          <span>免费初筛 ¥0</span>
+          <span>体检报告 ¥299</span>
+          <span>修复包 ¥2999 起</span>
+        </div>
+      </section>
+
+      <section class="tool" aria-labelledby="form-title">
+        <h2 id="form-title">免费体检</h2>
+        <p>不注册，不建账号。提交后自动进入后台，我会按邮箱回复。</p>
+
+        <form id="lead-form" class="lead-form">
+          <label class="hp" aria-hidden="true">
+            公司
+            <input name="company" type="text" tabindex="-1" autocomplete="off" />
+          </label>
+          <label>
+            官网
+            <input name="website" type="url" placeholder="https://你的官网.com" required />
+          </label>
+          <label>
+            产品类型
+            <input name="category" type="text" placeholder="AI 客服 / CRM / 建站服务" required />
+          </label>
+          <label>
+            竞品和客户会问 AI 的问题
+            <textarea name="context" placeholder="写 2-3 个竞品，以及客户会问 AI 的一句话" required></textarea>
+          </label>
+          <label>
+            接收邮箱
+            <input name="email" type="email" placeholder="你的邮箱" required />
+          </label>
+          <button class="button primary" type="submit">提交体检</button>
+          <p id="form-result" class="form-result" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/assets/app.js" type="module"></script>
+  </body>
+</html>
